@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+body > section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  width: 100vw;
+  background-color: #ddd;
+}
+.box-color{
+  width: 600px;
+  height: 600px;
+  margin: 20px ;
+}
+
